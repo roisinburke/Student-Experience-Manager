@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a2"
+  },
+  "module_id": 33061,
+  "lecturer_id": 80004,
+  "module_name": "Artificial Intelligence I",
+  "_p_key": "My Project"
+},{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a3"
+  },
+  "module_id": 33071,
+  "lecturer_id": 80005,
+  "module_name": "Compiler Design I",
+  "_p_key": "My Project"
+},{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a4"
+  },
+  "module_id": 34031,
+  "lecturer_id": 80006,
+  "module_name": "Advanced Telecommunications",
+  "_p_key": "My Project"
+},{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a5"
+  },
+  "module_id": 33009,
+  "lecturer_id": 80007,
+  "module_name": "Statistical Methods for Computer Science",
+  "_p_key": "My Project"
+},{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a0"
+  },
+  "module_id": 33013,
+  "lecturer_id": 80002,
+  "module_name": "Software Engineering Project II",
+  "_p_key": "My Project"
+},{
+  "_id": {
+    "$oid": "6067339ffcdb396064c742a1"
+  },
+  "module_id": 33014,
+  "lecturer_id": 80003,
+  "module_name": "Concurrent Systems I",
+  "_p_key": "My Project"
+}]

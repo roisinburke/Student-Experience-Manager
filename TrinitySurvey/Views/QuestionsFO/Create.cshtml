@@ -1,0 +1,43 @@
+﻿@model TrinitySurvey.Models.QuestionFO
+
+<h1>Integer Response Question</h1>
+<form asp-action="Create">
+
+    <ul style="list-style-type:none;">
+        <li>
+            <h3>Module</h3>
+            @Html.TextBoxFor(m => m.module_id)
+        </li>
+        <li>
+            <h2>Question Body</h2>
+            @Html.TextAreaFor(m => m.question_body, 10, 65, null)
+
+        </li>
+        <li>
+            <h3>Option One</h3>
+            @Html.TextAreaFor(m => m.option1, 1, 65, null)
+        </li>
+        <li>
+            <h3>Option Two</h3>
+            @Html.TextAreaFor(m => m.option2, 1, 65, null)
+        </li>
+        <li>
+            <h3>Option Three</h3>
+            @Html.TextAreaFor(m => m.option3, 1, 65, null)
+        </li>
+        <li>
+            <h3>Option Four</h3>
+            @Html.TextAreaFor(m => m.option4, 1, 65, null)
+        </li>
+        <li>
+            <h3>Option Five</h3>
+            @Html.TextAreaFor(m => m.option5, 1, 65, null)
+        </li>
+
+
+        <li>
+            <input type="submit" value="Deploy Question" style="font-size: 16pt;" name="Create" />
+        </li>
+    </ul>
+
+</form>

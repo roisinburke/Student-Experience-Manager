@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Your Question Responses </h1>
+<ul style="list-style-type:none;">
+    <li><h3>Emoji Response Questions</h3></li>
+    <li><a asp-area="" asp-controller="Questions" asp-action="QuestionList" style="font-size:16pt">View</a></li>
+
+    <li><h3>Yes No Questions</h3></li>
+    <li><a asp-area="" asp-controller="QuestionsYN" asp-action="QuestionList" style="font-size:16pt">View</a></li>
+
+    <li><h3>Integer Response Questions</h3></li>
+    <li><a asp-area="" asp-controller="QuestionsIR" asp-action="QuestionList" style="font-size:16pt">View</a></li>
+
+    <li><h3>Five Option Questions</h3></li>
+    <li><a asp-area="" asp-controller="QuestionsFO" asp-action="QuestionList" style="font-size:16pt">View</a></li>
+</ul>

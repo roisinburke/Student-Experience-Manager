@@ -1,0 +1,12 @@
+﻿@model IEnumerable<TrinitySurvey.Models.Response>
+
+<h1>Responses</h1>
+<form asp- action="ResponseList">
+    @foreach (var response in Model)
+    {
+        <div class="question">
+            <p>@Html.DisplayFor(m => response.response)</p>
+        </div>
+    }
+</form>
+
